@@ -1,0 +1,143 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;400&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  background-image: url(https://images.pexels.com/photos/2707756/pexels-photo-2707756.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+  background-repeat: no-repeat;
+}
+
+#container {
+  width: 50vw;
+  min-height: 100vh;
+  background-color: rgba(199, 216, 215, 0.603);
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+  position: relative;
+  top: 8vh;
+  left: 25vw;
+  border-radius: 2em;
+  box-shadow: 3.5px 2.5px rgb(187, 212, 233);
+}
+
+#container header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+header h1 {
+  font-size: 2.1em;
+  font-weight: 400;
+  font-family: "Rubik", sans-serif;
+  letter-spacing: 0.07rem;
+}
+
+header p {
+  font-size: 0.9em;
+  padding-top: 0.7rem;
+  font-weight: 300;
+  font-family: "Rubik", sans-serif;
+  letter-spacing: 0.07rem;
+}
+
+#head,
+#main,
+#main2 {
+  margin-bottom: 1rem;
+}
+
+.wrapper {
+  letter-spacing: 0.07rem;
+  font-weight: 300;
+  font-family: "Rubik", sans-serif;
+}
+
+#survey-form {
+  margin-bottom: 2em;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: start;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+#name-label,
+#email-label,
+#number-label {
+  font-size: medium;
+  font-weight: 400;
+  font-family: "Rubik", sans-serif;
+  letter-spacing: 0.04rem;
+}
+
+label {
+  display: flex;
+  flex-basis: 1.6rem;
+  margin-top: 0.2rem;
+  margin-bottom: 0.2rem;
+  font-size: medium;
+  font-weight: 300;
+  font-family: "Rubik", sans-serif;
+  letter-spacing: 0.04rem;
+}
+
+#options1,
+#options,
+#prefer {
+  margin-top: 0.2rem;
+  margin-right: 0.3rem;
+}
+
+.form-group p {
+  font-size: medium;
+  font-weight: 400;
+  font-family: "Rubik", sans-serif;
+  letter-spacing: 0.04rem;
+}
+
+.form-group #name,
+#email,
+#number {
+  width: 15vw;
+  border: 1px solid rgb(105, 163, 211);
+  padding-bottom: 0.3rem;
+  border-radius: 0.2rem;
+}
+
+#name::placeholder,
+#email::placeholder,
+#number::placeholder,
+#comments::placeholder {
+  font-size: 1em;
+  font-weight: 300;
+  font-family: "Rubik", sans-serif;
+  letter-spacing: 0.07rem;
+}
+
+#comments {
+  max-width: 35rem;
+  min-height: 6rem;
+}
+
+#submit {
+  display: flex;
+  justify-content: center;
+
+  margin-top: 1rem;
+  width: 33.3rem;
+  font-size: medium;
+  font-weight: 400;
+  font-family: "Rubik", sans-serif;
+  letter-spacing: 0.04rem;
+}
