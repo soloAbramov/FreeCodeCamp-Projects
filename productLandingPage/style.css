@@ -1,0 +1,201 @@
+@import url("https://fonts.googleapis.com/css2?family=Fahkwang:wght@200;300&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container-fluid {
+  width: 100vw;
+  height: 100vh;
+  background-color: white;
+}
+
+#nav-bar {
+  width: 100%;
+  position: fixed;
+  top: 0px;
+  background-color: white;
+}
+
+.navbar-brand {
+  color: #a694d3;
+  margin-right: 4rem;
+  padding-left: 2rem;
+  font-size: 1.5rem;
+  font-family: "Fahkwang", sans-serif;
+  font-weight: 400;
+}
+
+.nav-item {
+  padding-right: 1.3rem;
+}
+
+.nav-link {
+  font-size: 1.3rem;
+  font-family: "Fahkwang", sans-serif;
+  font-weight: 200;
+}
+
+/* carousel background - BD4B4B */
+/* #A694D3 */
+/* #CCC4F7 */
+/* rgba(248, 160, 248, 0.692); */
+/* #D9C3A0 */
+
+.container-main {
+  margin-top: 24px;
+  padding-top: 12rem;
+  width: 100%;
+  height: 65vh;
+  background-color: #d9c3a0;
+  border-radius: 2rem;
+}
+
+#main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: 20rem;
+  align-self: center;
+}
+
+#main h1 {
+  font-family: "Fahkwang", sans-serif;
+  font-weight: 400;
+  font-size: 4.5em;
+  text-align: center;
+  letter-spacing: 0.5px;
+  color: white;
+}
+
+#main p {
+  font-family: "Fahkwang", sans-serif;
+  font-weight: 200;
+  text-align: center;
+  font-size: 1.5em;
+  padding-top: 2rem;
+  letter-spacing: 0.5px;
+  color: white;
+}
+
+.wrapper {
+  width: 40vw;
+  height: 45vh;
+  /* background-color: #d9c3a0; */ /* temp */
+  border-radius: 2rem;
+  position: relative;
+  bottom: 18rem;
+}
+
+.carousel-item img {
+  width: 16rem;
+  height: 45vh;
+  margin-left: 12rem;
+}
+
+.carousel-caption {
+  width: 10em;
+  height: 5em;
+  margin-left: 9.5rem;
+  background-color: #9d9ca571;
+}
+
+.carousel-caption h5 {
+  font-family: "Fahkwang", sans-serif;
+  font-weight: 200;
+  font-size: 1rem;
+  letter-spacing: 1px;
+}
+
+.carousel-caption p {
+  font-family: "Fahkwang", sans-serif;
+  font-weight: 200;
+  font-size: 0.6rem;
+  letter-spacing: 0.6px;
+}
+
+#about {
+  width: 100%;
+  height: 65vh;
+  background-color: #f9f8f5;
+  border-radius: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.desc {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 2rem;
+}
+
+.desc h1 {
+  font-family: "Fahkwang", sans-serif;
+  font-weight: 300;
+  font-size: 3.5em;
+  padding: 2px;
+}
+
+.desc p {
+  font-family: "Fahkwang", sans-serif;
+  font-weight: 200;
+  font-size: 1em;
+  padding: 1px;
+}
+
+#contact {
+  width: 100%;
+  height: 60vh;
+  background-color: #d9c3a0;
+  border-radius: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#contact h1 {
+  font-family: "Fahkwang", sans-serif;
+  font-weight: 300;
+  font-size: 3.5em;
+  text-align: center;
+}
+
+#form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+label {
+  font-family: "Fahkwang", sans-serif;
+  font-weight: 200;
+  font-size: 1.2em;
+}
+
+input {
+  width: 50%;
+  display: flex;
+  text-align: center;
+  font-family: "Fahkwang", sans-serif;
+  font-weight: 200;
+}
+
+textarea {
+  width: 50%;
+  font-family: "Fahkwang", sans-serif;
+  font-weight: 200;
+  margin-bottom: 1rem;
+}
+
+#submit {
+  display: flex;
+  justify-content: center;
+  font-weight: 300;
+}
