@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Arimo&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Arimo", sans-serif;
+  display: flex;
+}
+
+#navbar {
+  background-color: #ccc;
+  max-width: 250px;
+  height: 100vh;
+}
+
+#navbar header {
+  font-size: 1.3em;
+  font-weight: bold;
+  padding: 5px;
+}
+
+.nav-link {
+  padding: 10px;
+  display: block;
+  border-top: 1px solid rgba(255, 255, 255, 0.452);
+  font-size: 1rem;
+  text-decoration: none;
+  color: rgb(68, 67, 67);
+}
+
+#main-doc {
+  background-color: #eee;
+  flex: 1;
+  height: 100vh;
+  overflow-y: scroll;
+}
+
+.main-section {
+  margin-top: 8px;
+  padding: 10px;
+  color: rgb(68, 67, 67);
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.text {
+  font-size: 1rem;
+  font-weight: normal;
+  padding: 8px;
+  letter-spacing: normal;
+}
+
+ul li {
+  font-size: 1.2rem;
+  list-style: none;
+  text-decoration: none;
+  color: blue;
+}
+
+@media (max-width: 600px) {
+  body {
+    flex-direction: column;
+  }
+
+  nav {
+    border-right: none;
+    border-bottom: 2px solid #777;
+    height: 200px;
+    overflow-y: scroll;
+    width: 100%;
+  }
+
+  main {
+    height: auto;
+    width: 100%;
+  }
+}
