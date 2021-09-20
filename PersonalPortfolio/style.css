@@ -1,0 +1,249 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Montserrat", sans-serif;
+}
+
+#navbar {
+  width: 100vw;
+  height: 7vh;
+  display: flex;
+  justify-content: right;
+  padding-right: 3.5rem;
+  padding-top: 1rem;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+  background-color: #005f73;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+    rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+  color: white;
+}
+
+ul {
+  width: 100vw;
+  display: flex;
+  justify-content: right;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+}
+
+ul li {
+  padding-right: 0.8rem;
+  font-size: 1.1rem;
+}
+
+li a {
+  color: white;
+  text-decoration: none;
+}
+
+li a:hover {
+  color: rgba(240, 224, 224, 0.719);
+  border-bottom: 0.5px solid rgba(240, 224, 224, 0.719);
+}
+
+.codeImg {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 25px;
+  padding-right: 2px;
+}
+
+#navbar p {
+  font-weight: 400;
+  font-size: 1.2em;
+  display: flex;
+  margin-left: 2rem;
+}
+
+header {
+  height: 100vh;
+  background-image: url(./img/pexels-olia-danilevich-4974915.jpg);
+  background-size: cover;
+  background-position: center center;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: relative;
+}
+
+header::after {
+  content: "";
+  background-color: rgb(29, 29, 29);
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  opacity: 0.6;
+}
+
+header * {
+  position: relative;
+  z-index: 1;
+  padding: 1.2rem;
+}
+
+header h1,
+h2 {
+  font-size: 2.2em;
+}
+
+header p {
+  font-size: 1.6em;
+}
+
+.hand {
+  position: relative;
+  top: 17px;
+  right: 5px;
+  cursor: grab;
+  transform: rotate(20deg);
+}
+
+#about {
+  width: 100%;
+  height: 60vh;
+  background-color: #edf2f4;
+  display: flex;
+  flex-direction: row;
+}
+
+.codeMan {
+  width: 500px;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.wrapper {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 2;
+  padding-bottom: 2.8rem;
+}
+
+.wrapper h1 {
+  font-size: 2.2em;
+  padding-bottom: 2rem;
+}
+
+.wrapper p {
+  letter-spacing: 0.2px;
+  line-height: 2;
+}
+
+.projects-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  max-width: 810px;
+  margin: 20px auto 0;
+}
+
+#projects {
+  background-color: #e2e2e2;
+}
+
+#projects h1 {
+  padding-top: 1.2rem;
+  font-size: 2.2em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.project-tile {
+  max-width: 250px;
+  margin: 10px;
+  text-decoration: none;
+  transition: transform 0.4s ease;
+}
+
+.project-tile:hover {
+  transform: scale(1.05);
+}
+
+.project-tile img {
+  max-width: 100%;
+}
+
+.project-tile p {
+  font-size: 22px;
+  color: #000;
+  text-align: center;
+}
+
+#social {
+  width: 100%;
+  height: 30vh;
+  background-color: #edf2f4;
+}
+
+#social h2,
+#social p {
+  padding-top: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.social-ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  list-style-type: none;
+  padding-top: 2rem;
+  margin: 0;
+}
+
+.social-ul a {
+  border: 1.5px solid #fff;
+  border-radius: 50%;
+  color: #fff;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 25px;
+  margin: 5px 15px;
+  text-decoration: none;
+  height: 50px;
+  width: 50px;
+  transition: transform 0.4s ease;
+}
+
+.social-ul a:hover {
+  transform: scale(1.05);
+}
+
+footer {
+  background-color: #e2e2e2;
+  padding: 10px;
+  text-align: center;
+}
+
+@media (max-width: 600px) {
+  section {
+    padding: 20px;
+  }
+}
